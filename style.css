@@ -507,3 +507,60 @@ footer li {
     top: 31px;
   }
 }
+
+/* Tambahan Responsiveness */
+
+/* Responsive font and spacing for hero section */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 4rem;
+  }
+
+  .hero h4 {
+    font-size: 1.3rem;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+  }
+}
+
+/* Better spacing and alignment on mobile for .home .couple */
+@media (max-width: 576px) {
+  .home .couple {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .home h2 {
+    font-size: 3.5rem;
+  }
+
+  .home .couple h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .home p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .info,
+  .story,
+  .gallery,
+  .rsvp,
+  .gifts {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer ul {
+    padding-left: 0;
+  }
+}
